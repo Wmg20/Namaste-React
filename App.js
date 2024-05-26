@@ -1,13 +1,16 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // create an element using react
-// const heading = React.createElement(
-//   "h1",
-//   {
-//     // use for passing attributes
-//     id: "heading",
-//     className: "heading-class",
-//   },
-//   "An h1 element created usign react createElement"
-// );
+const heading = React.createElement(
+  "h1",
+  {
+    // use for passing attributes
+    id: "heading",
+    className: "heading-class",
+  },
+  "An h1 element created usign react createElement"
+);
 
 // creating a nested parent and children structure
 const parent = React.createElement(
@@ -29,7 +32,7 @@ const parent = React.createElement(
         {
           id: "heading",
         },
-        " I'm an h1 element "
+        " Namaste React 👋 "
       ),
       React.createElement(
         "h2",
